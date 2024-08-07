@@ -10,7 +10,7 @@ function ShoppingPage() {
   const [whitewines, setWhitewines] = useState([]);
   const [rosewines, setRosewines] = useState([]);
   const [sparklingwines, setSparklingwines] = useState([]);
-  const url = "https://backend-final-five.vercel.app//";
+  const url = "https://backend-final-five.vercel.app/";
 
   useEffect(() => {
     const fetchRedWine = async () => {
